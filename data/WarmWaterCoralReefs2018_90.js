@@ -1,1 +1,0 @@
-var json_WarmWaterCoralReefs2018_90 = {"type":"FeatureCollection","name":"WarmWaterCoralReefs2018_90","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
