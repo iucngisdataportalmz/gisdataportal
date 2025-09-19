@@ -1,0 +1,1 @@
+var json_ColdWaterCoralReefs2017_84 = {"type":"FeatureCollection","name":"ColdWaterCoralReefs2017_84","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
