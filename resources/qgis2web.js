@@ -452,7 +452,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-right-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">GIS DATA PORTAL FOR INHAMBANE SEASCAPE PROJECT</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">GIS DATA PORTAL FOR COASTAL RESILIENCE IN INHAMBANE PROVINCE</h2>';
         return titleElement;
     })(),
     target: 'top-right-container'
@@ -1188,4 +1188,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var attributionControl = document.getElementsByClassName('bottom-attribution')[0];
     if (attributionControl) {
         bottomRightContainerDiv.appendChild(attributionControl);
+
     }
