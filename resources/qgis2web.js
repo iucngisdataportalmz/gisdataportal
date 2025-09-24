@@ -483,13 +483,13 @@ var Abstract = new ol.control.Control({
             window.showAbstract = function() {
                 linkElement.classList.remove("project-abstract");
                 linkElement.classList.add("project-abstract-uncollapsed");
-                linkElement.innerHTML = 'Welcome to the Inhambane SEASCAPE GIS Portal <br />This portal integrates and provides spatial and socio-economic information essential to support the sustainable management of the coastal zone of Inhambane Province. It gathers data on biodiversity, climate, oceanography, infrastructure, population, land use, and environmental risks, allowing you to explore interactive maps, thematic analyses, and key indicators. ';
+                linkElement.innerHTML = 'Welcome to the GIS Data Portal for Coastal Resilience in Inhambane Province <br />This portal integrates and provides spatial and socio-economic information essential to support the sustainable management of the coastal zone of Inhambane Province. It gathers data on biodiversity, climate, oceanography, infrastructure, population, land use, and environmental risks, allowing you to explore interactive maps, thematic analyses, and key indicators. ';
             }
 
             hideAbstract();
         } else {
             linkElement.classList.add("project-abstract-uncollapsed");
-            linkElement.innerHTML = 'Welcome to the Inhambane SEASCAPE GIS Portal <br />This portal integrates and provides spatial and socio-economic information essential to support the sustainable management of the coastal zone of Inhambane Province. It gathers data on biodiversity, climate, oceanography, infrastructure, population, land use, and environmental risks, allowing you to explore interactive maps, thematic analyses, and key indicators. ';
+            linkElement.innerHTML = 'Welcome to the GIS Data Portal for Coastal Resilience in Inhambane Province <br />This portal integrates and provides spatial and socio-economic information essential to support the sustainable management of the coastal zone of Inhambane Province. It gathers data on biodiversity, climate, oceanography, infrastructure, population, land use, and environmental risks, allowing you to explore interactive maps, thematic analyses, and key indicators. ';
         }
 
         titleElement.appendChild(linkElement);
@@ -1190,3 +1190,4 @@ document.addEventListener('DOMContentLoaded', function() {
         bottomRightContainerDiv.appendChild(attributionControl);
 
     }
+
